@@ -16,7 +16,8 @@ ctypes, ffi, etc. Stuff that modifies the system's iptables for example live her
 
 `interfac.py` a low-level interface for tool implementers. For example:
 
-... code:: python
+
+.. code:: python
 
     firewall = Firewall()
     firewall.register_event(action='reinit', event=(ALL_INTERFACES, UP_DOWN))
