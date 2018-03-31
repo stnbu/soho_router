@@ -1,11 +1,13 @@
-#soho_router
+soho_router
+\\\\\\\\\\\
 
 `soho_router` aims to be _most_ of what you need to build a reasonably secure, easy to use router. It includes a CLI
 interface, but is designed to be easily adapted to work with a "REST" API or similar. Unless you know what you're doing
 you'd be wise to just stick to the CLI. Which is bundled. So in a sense, this package is "all you need" to set up an
 easily configurable SOHO router. It's a systems interface library (sort of) and it's also a complete usable application.
 
-## Design
+Design
+======
 
 There are two main modules: `system.py` and `interface.py`.
 
